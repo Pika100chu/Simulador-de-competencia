@@ -222,7 +222,7 @@ modelo = st.selectbox(
 col1,col2 = st.columns(2)
 
 with col1:
-    a = st.number_input("a (intercepto demanda)", min_value=0.01, value=100.0)
+    a = st.number_input("a (intercepto demanda)", min_value=0.01, value=200.0)
     b = st.number_input("b (pendiente demanda)", min_value=0.01, value=1.0)
 
 with col2:
