@@ -226,7 +226,7 @@ with col1:
     b = st.number_input("b (pendiente demanda)", min_value=0.01, value=1.0)
 
 with col2:
-    c1 = st.number_input("Costo marginal empresa 1", value=10.0)
+    c1 = st.number_input("Costo marginal empresa 1", value=20.0)
     c2 = st.number_input("Costo marginal empresa 2", value=20.0)
 
 if st.button("Calcular equilibrio"):
